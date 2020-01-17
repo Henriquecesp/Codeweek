@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+}
+.header{
+    position: fixed;
+    background-color: rgb(27, 29, 36);
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+.header a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+.header a:hover{
+    background: white;
+    color: black;
+}
+.header .logo{  
+    font-weight: bold;
+}
+.header-right{
+    float: right;
+}   
+.content{
+    position: relative;
+    text-align: center;
+    background-color: #000;
+}
+.content .img{
+    height: 100vh;
+    width: 100%;
+    opacity: 0.3;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4rem;
+  }
