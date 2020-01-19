@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: 'Aldrich';
 }
 .header{
     position: fixed;
@@ -19,8 +20,7 @@ body{
     color: white;
 }
 .header a:hover{
-    background: white;
-    color: black;
+    background:blueviolet;
 }
 .header .logo{  
     font-weight: bold;
@@ -54,7 +54,7 @@ body{
     color: white;
 }
 .bg-purple{
-    background-color: rgba(63, 81, 181, 0.5);
+    background-color: rgba(138,43,226 ,0.5);
     width: 50%;
     padding: 5vh;
 }
@@ -76,5 +76,29 @@ body{
     border: none;
 }
 .form-inline button:hover {
-    background-color: rgb(63, 81, 181);
-  }
+    background-color: blueviolet;
+}
+
+.about {
+    background-color: blueviolet;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    height: 40vh;
+}
+
+.about-text{
+    background-color: rgba(0,0,0, 0.2);
+    border: 1px solid #f1f1f1;
+    position: absolute;
+    top: 132%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 55%;
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+}
