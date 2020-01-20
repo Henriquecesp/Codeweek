@@ -118,6 +118,15 @@ body{
 
 .contact{
     height: 45vh;
+    background-image:
+    radial-gradient(
+    #b991c9,
+    rgb(153, 99, 204)
+    );
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
 }
 
 .contact__form{
