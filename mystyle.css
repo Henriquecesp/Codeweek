@@ -80,7 +80,11 @@ body{
 }
 
 .about {
-    background-color: blueviolet;
+    background-image:
+    radial-gradient(
+    rgb(153, 99, 204),
+    blueviolet
+    );
     padding: 30px;
     text-align: center;
     color: white;
@@ -92,7 +96,7 @@ body{
     background-color: rgba(0,0,0, 0.2);
     border: 1px solid #f1f1f1;
     position: absolute;
-    top: 132%;
+    top: 130%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
