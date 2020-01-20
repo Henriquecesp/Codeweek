@@ -8,7 +8,7 @@ body{
     width: 100%;
     top: 0;
     overflow: hidden;
-    z-index: 1;
+    z-index: 100;
 }
 .header a {
     float: left;
@@ -105,4 +105,10 @@ body{
     text-align: center;
     font-size: 1rem;
     letter-spacing: 0.1em;
+}
+.agenda{
+    text-align: center;
+    background-color: #1B1D24;
+    color: white;
+    padding: 50px;
 }
