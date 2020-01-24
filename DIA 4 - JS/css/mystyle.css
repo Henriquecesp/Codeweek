@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    font-family: 'Aldrich';
+    overflow-x: hidden;
+}
+.header{
+    position: fixed;
+    background-color: rgb(27, 29, 36);
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    z-index: 100;
+}
+.header a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+}
+.header a:hover{
+    background:blueviolet;
+}
+.header .logo{  
+    font-weight: bold;
+}
+.header-right{
+    float: right;
+}   
+.content{
+    position: relative;
+    text-align: center;
+    background-color: #000;
+}
+.content .img{
+    height: 100vh;
+    width: 100%;
+    opacity: 0.3;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4rem;
+}
+.centered-down {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.bg-purple{
+    background-color: rgba(138,43,226 ,0.5);
+    width: 50%;
+    padding: 5vh;
+}
+.form-inline {  
+    align-items: center;
+}
+.form-inline input, textarea {
+    vertical-align: middle;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid black;
+}
+.form-inline button {
+    vertical-align: middle;
+    padding: 10px 20px;
+    background-color: #1b1d23;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.form-inline button:hover {
+    background-color: blueviolet;
+}
+
+.about {
+    background-image:
+    radial-gradient(
+    rgb(153, 99, 204),
+    blueviolet
+    );
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    height: 40vh;
+}
+
+.about-text{
+    background-color: rgba(0,0,0, 0.2);
+    border: 1px solid #f1f1f1;
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 55%;
+    padding: 20px;
+    text-align: center;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+}
+
+.agenda{
+    text-align: center;
+    background-color: #1B1D24;
+    color: white;
+    padding: 50px;
+    font-size: 1.2rem;
+}
+
+.contact{
+    height: 45vh;
+    background-image:
+    radial-gradient(
+    #b991c9,
+    rgb(153, 99, 204)
+    );
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contact__form{
+    padding: 20px;
+    border: 1px solid;
+}
+
+.contact textarea{
+    height: 100px;
+    width: 50%;
+}
+
+.footer {
+    width: 100%;
+    background-color: rgb(27, 29, 36);
+    color: white;
+    text-align: center;
+    padding: 20px;
+ }
