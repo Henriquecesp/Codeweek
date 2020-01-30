@@ -1,0 +1,26 @@
+export const meusLivros = [
+    {
+        id: 1,
+        title: "Noite a fora",
+        autor: "Donnefar Skedar",
+        descricao: "O baile estava para terminar, só mais uma música de cinco ou sete minutos e todos estariam se despedindo ansiosos para o próximo final de semana; é claro. Este é o primeiro conto de Horror escrito pelo autor e narra a trajetória de uma senhora que encontra no baile um belo senhor com quem tem uma bela noite, mas só até lhe dar carona para casa, onde a mesma percebe que mesmo com sua idade avançada, ela não tinha visto de tudo na vida."
+    },
+    {
+        id: 2,
+        title: "A filha do conde",
+        autor: "Lorraine Heath",
+        descricao: "Era revoltante ver que ela estava ainda mais bonita do que quando a vira pela última vez, quando trocaram juras de amor e fizeram promessas que foram quebradas poucas horas depois... Os anos e a maturidade tinham acrescentado uma graça que Lavínia não possuía aos 17, quando Finn declarara o seu amor. Será que ela ainda se lembrava dos momentos com carinho ou a memória também rasgava seu coração, como fazia com o dele? Lavínia o fizera de tolo. Nenhuma das lembranças que tinha dela deveriam ser agradáveis. Mas, em algumas noites, ainda ficava na cama encarando o teto, porque a imagem dela surgia sempre que fechava os olhos. Cinco anos de sua vida em isolamento, e a única coisa para lhe fazer companhia, para mantê-lo são, era a lembrança que tinha dela. Aquelas memórias eram seu sustento. No começo, ele as invocava para alimentar a sede de vingança, de retribuição, mas a solidão fora aumentando até transformá-las em sonhos. As lembranças traziam a esperança de que o amor estaria esperando em algum lugar, que voltaria a tê-la, sorrindo para ele, rindo com ele, enchendo-o de alegria. Lavínia não era mais sua — na verdade, nunca fora — mas, ainda assim, uma parte tola de si não conseguia se esquecer de quando quase a tivera, aquela garota que amara no passado."
+    },
+    {
+        id: 3,
+        titulo: "História de um grande amor",
+        autor: "Julia Quinn",
+        descricao: "PRIMEIRO VOLUME DA TRILOGIA BEVELSTOKE. Julia Quinn já vendeu mais 1 milhão de livros pela Editora Arqueiro. O timing perfeito de Julia Quinn para o humor permanece intacto. Este romance bem-escrito, divertido e delicado é diversão garantida. – Publishers Weekly Aos 10 anos, Miranda Cheever já dava sinais claros de que não seria nenhuma bela dama. E já nessa idade, aprendeu a aceitar o destino de solteirona que a sociedade lhe reservava. Até que, numa tarde qualquer, Nigel Bevelstoke, o belo e atraente visconde de Turner, beijou solenemente sua mãozinha e lhe prometeu que, quando ela crescesse, seria tão bonita quanto já era inteligente. Nesse momento, Miranda não só se apaixonou, como teve certeza de que amaria aquele homem para sempre. Os anos que se seguiram foram implacáveis com Nigel e generosos com Miranda. Ela se tornou a mulher linda e interessante que o visconde previu naquela tarde memorável, enquanto ele virou um homem solitário e amargo, como consequência de um acontecimento devastador. Mas Miranda nunca esqueceu a verdade que anotou em seu diário tantos anos antes. E agora ela fará de tudo para salvar Nigel da pessoa que ele se tornou e impedir que seu grande amor lhe escape por entre os dedos."
+    },
+    {
+        id: 4,
+        titulo: "Recursão",
+        autor: "Blake Crouch",
+        descricao: "E se um dia memórias vívidas de coisas que nunca aconteceram se infiltrassem em sua mente, pintando em tons de cinza todas as suas certezas? É dessa premissa que Blake Crouch parte em Recursão, uma obra tão impactante que teve os direitos de adaptação audiovisual adquiridos pela Netflix, que produzirá um filme e uma série baseados no livro, ambos a cargo de Shonda Rhimes. Barry Sutton é policial em Nova York e convive com a tristeza da morte da filha. Ao ser acionado para intervir em uma tentativa de suicídio, ele se depara com uma mulher que sofre da Síndrome da Falsa Memória, uma doença misteriosa que planta na cabeça de suas vítimas lembranças de vidas que elas nunca tiveram. A neurocientista Helena Smith está desenvolvendo uma tecnologia para a cura do Alzheimer. Inesperadamente, um dos homens mais ricos do mundo se oferece para financiar sua pesquisa. Helena vê surgir a chance de propiciar um grande bem para a humanidade. No entanto, não poderia estar mais enganada... A tecnologia que deveria salvar vidas acelera a marcha galopante do caos, gerando uma guerra pelo poder e criando recursos que começam a esfacelar a realidade. O tempo não é mais como o conhecemos, e Barry e Helena terão de se unir se quiserem sobreviver — e salvar a todos nós. Um dos nomes mais importantes da ficção científica contemporânea, Blake Crouch constrói uma jornada desnorteante, com personagens complexos, que nos fazem refletir sobre nossa identidade. Uma trama intrincada, ágil e emocionante, que mostra que, quando nada é mais importante do que a memória, perdê-la significa perder a si mesmo."
+     }
+]
